@@ -80,4 +80,30 @@ window.addEventListener('load', function() {
     $JSView
         .initView('inici');
  
+ modal_info_aeroport: {
+
+url: '/modal_info_aeroport',
+
+template: 'views/modal_info_aeroport.html',
+
+controller: 'modal_info_aeroport'
+
+}
+ /*Declare modal*/
+
+$JSView.declareModal({
+
+ modal_info_aeroport: {
+
+url: '/modal_info_aeroport',
+
+template: 'views/modal_info_aeroport.html',
+
+controller: 'modal_info_aeroport'
+
+}
+
+
+});
+ 
 }, false);
